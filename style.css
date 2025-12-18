@@ -5,12 +5,17 @@
     background: url("bg.jpg") center / cover no-repeat; 
 }
 
-span {
+img {
+    width: 80px;
+    height: 100px;
+}
+
+footer span {
     font-size: 0.8rem;
     color: #666;
 }
 
-span a {
+footer span a {
     text-decoration: none;
     color: inherit;
 }

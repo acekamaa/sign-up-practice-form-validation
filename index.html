@@ -5,10 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <div class="logo">
+            <span><img src="odin-lined.png" alt="Odin Logo">ODIN</span>
+        </div>
+    </header>
+    <main>
+        <form action="#">
+            <fieldset>
+                <h2>Let's do this!</h2>
+
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" name="firstname" id="firstname">
+
+                <label for="lastname">LAST NAME</label>
+                <input type="text" name="lastname" id="lastname">
+
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+
+                <label for="phone">PHONE NUMBER</label>
+                <input type="number" name="phone" id="phone">
+
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" minlength="8">
+
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="confirm-password">
+            </fieldset>
+
+            <button type="button">Create Account</button>
+
+            <p>Arleady have an account?<a href="">Log in</a></p>
+        </form>
+    </main>
     <footer>
         <span>Photo by <a href="https://unsplash.com/@robshumski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roberto Shumski</a> on <a href="https://unsplash.com/photos/misty-forest-valley-with-mountains-in-background-oYEGPZebzGw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
     </footer>
