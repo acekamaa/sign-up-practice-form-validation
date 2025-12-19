@@ -21,21 +21,22 @@ img {
     font-size: 0.8rem;
     padding: 20px;
     width: 100vh;
-    border: 1px solid transparent;
+    margin: 10%;
 }
 
 main {
     display: flex;
     background-color: white;
     margin: 0;
-    width: 100vh;
-    height: 50vh;
+    width: 80%;
+    height: 100%;
 }
 
 header {
     display: flex;
     align-items: flex-start;
     margin-top: 20vh;
+    width: 50%;
 }
 
 .logo {
@@ -43,7 +44,7 @@ header {
     flex-shrink: 0;
     justify-content: center;
     box-sizing: border-box;
-    width: 50vh;
+    width: 100%;
     background-color: rgba(0,0,0,0.5);
     padding: 20px;
     margin: 0;
@@ -59,6 +60,7 @@ header {
 }
 
 footer span {
+    display: flex;
     font-size: 0.8rem;
     color: #ccc6c6;
 }
