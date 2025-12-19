@@ -1,8 +1,12 @@
 :root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    min-height: 100vh;
     background: url("bg.jpg") center / cover no-repeat; 
+}
+
+.container {
+    display: flex;
+    height: 100vh;
 }
 
 img {
@@ -11,23 +15,37 @@ img {
 }
 
 #fill-in {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     font-size: 0.8rem;
+    padding: 20px;
+    width: 100vh;
+    border: 1px solid transparent;
 }
 
 main {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    background-color: white;
+    margin: 0;
+    width: 100vh;
+    height: 50vh;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20vh;
 }
 
 .logo {
     display: flex;
-    align-items: center;
+    flex-shrink: 0;
     justify-content: center;
-    border: 1px transparent darkolivegreen;
-    background-color: rgba(0,0,0,1);
-    padding: 10px;
+    box-sizing: border-box;
+    width: 50vh;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
     margin: 0;
 }
 
