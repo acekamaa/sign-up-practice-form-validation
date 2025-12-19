@@ -6,13 +6,43 @@
 }
 
 img {
-    width: 80px;
-    height: 100px;
+    width: 50px;
+    height: 70px;
+}
+
+#fill-in {
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent darkolivegreen;
+    background-color: rgba(0,0,0,1);
+    padding: 10px;
+    margin: 0;
+}
+
+.logo span {
+    display: flex;
+    align-items: center;
+    font-family: Tangerine;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
 }
 
 footer span {
     font-size: 0.8rem;
-    color: #666;
+    color: #ccc6c6;
 }
 
 footer span a {
