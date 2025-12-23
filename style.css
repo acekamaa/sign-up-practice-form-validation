@@ -14,24 +14,6 @@ img {
     height: 70px;
 }
 
-#fill-in {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    font-size: 0.8rem;
-    padding: 20px;
-    width: 100vh;
-    margin: 10%;
-}
-
-main {
-    display: flex;
-    background-color: white;
-    margin: 0;
-    width: 80%;
-    height: 100%;
-}
-
 header {
     display: flex;
     align-items: flex-start;
@@ -58,6 +40,28 @@ header {
     font-weight: bold;
     color: white;
 }
+
+main {
+    display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    width: 80%;
+    height: 100%;
+}
+
+#fill-in {
+    display: inline;
+    gap: 10px;
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 10px;
+    width: 110vh;
+    margin: 10%;
+    border: transparent;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
 
 footer span {
     display: flex;
