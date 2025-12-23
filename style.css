@@ -6,7 +6,7 @@
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 95vh;
 }
 
 img {
@@ -51,17 +51,53 @@ main {
 }
 
 #fill-in {
-    display: inline;
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
     background-color: white;
     font-size: 0.8rem;
-    padding: 10px;
+    padding: 3rem;
     width: 110vh;
-    margin: 10%;
+    margin: 5vh; 
     border: transparent;
     box-shadow:0 4px 10px rgba(0, 0, 0, 0.15);
+} 
+
+h2 {
+    display: flex;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
+.submit {
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #596D48;
+    font-size: inherit;
+    color: white;
+}
+
+p {
+    margin: 2.5rem;
+    font-size: inherit;
+}
+
+p a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    color: rgb(19, 73, 19);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(50% - 1rem);
+}
 
 footer span {
     display: flex;

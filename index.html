@@ -17,30 +17,42 @@
             </div>
         </header>
         <main>
-            <form action="#">
+            <form class="form-flex" action="#">
                 <fieldset id="fill-in">
-                    <h2>Let's do this!</h2><br />
+                    <h2>Let's do this!</h2>
 
-                    <label for="firstname">FIRST NAME</label>
-                    <input type="text" name="firstname" id="firstname">
+                    <div class="form-group">
+                        <label for="firstname">FIRST NAME</label>
+                        <input type="text" name="firstname" id="firstname">
+                    </div>
 
-                    <label for="lastname">LAST NAME</label>
-                    <input type="text" name="lastname" id="lastname">
+                    <div class="form-group">
+                        <label for="lastname">LAST NAME</label>
+                        <input type="text" name="lastname" id="lastname">
+                    </div>
 
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </div>
 
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="number" name="phone" id="phone">
+                    <div class="form-group">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" placeholder="07** *** ***">
+                    </div>
 
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password" minlength="8">
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" minlength="8">
+                    </div>
 
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
+                    <div class="form-group">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
                 </fieldset>
 
-                <button type="button">Create Account</button>
+                <button class="submit" type="button">Create Account</button>
 
                 <p>Arleady have an account?<a href="">Log in</a></p>
             </form>
