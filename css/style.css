@@ -99,6 +99,43 @@ p a {
     flex: 1 1 calc(50% - 1rem);
 }
 
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: inherit;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* invalid input - red border */
+.form-group input:invalid {
+    border-color: red;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+}
+
+/* focused input - blue border */
+.form-group input:focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(22, 29, 148, 0.5);
+}
+
+/* prevent red border on empty input */
+.form-group input:invalid:not(:focus) {
+    border-color: #E5E7EB;
+    box-shadow: none;
+}
+
+footer {
+    display: flex;
+    margin-left: 20vh;
+    height: 5vh;
+}
+
 footer span {
     display: flex;
     font-size: 0.8rem;
