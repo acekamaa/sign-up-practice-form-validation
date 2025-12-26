@@ -1,7 +1,7 @@
 :root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
-    background: url("bg.jpg") center / cover no-repeat; 
+    background: url("assets/bg.jpg") center / cover no-repeat; 
 }
 
 .container {
